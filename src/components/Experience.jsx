@@ -1,5 +1,5 @@
+import { Box, List, ListItem, ListItemText, Paper, Typography } from '@mui/material';
 import React from 'react';
-import { Box, Typography, Paper, List, ListItem, ListItemText } from '@mui/material';
 
 const experiences = [
   {

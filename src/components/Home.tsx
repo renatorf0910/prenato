@@ -1,9 +1,9 @@
-import React from 'react';
-import { Container, Typography, Box, Button, Avatar, Grid } from '@mui/material';
+import { Avatar, Container, Grid, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import StackCarousel from "./StackCarousel.tsx";
 import Footer from './Footer.jsx';
+import StackCarousel from "./StackCarousel.tsx";
 
 export default function Home() {
     return (

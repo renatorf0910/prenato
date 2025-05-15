@@ -1,9 +1,5 @@
+import { Container, Typography } from '@mui/material';
 import React from 'react';
-import { Container, Typography, Grid, Paper } from '@mui/material';
-import { Email, Phone, Chat, ArrowBack } from '@mui/icons-material';
-import { motion } from 'framer-motion';
-import IconButton from '@mui/material/IconButton';
-import Tooltip from '@mui/material/Tooltip';
 import { Typewriter } from 'react-simple-typewriter';
 
 const aboutMe = [

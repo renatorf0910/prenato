@@ -1,9 +1,7 @@
-import React from 'react';
-import { Container, Typography, Grid, Paper } from '@mui/material';
-import { Email, Phone, Chat, ArrowBack } from '@mui/icons-material';
+import { Chat, Email, Phone } from '@mui/icons-material';
+import { Container, Grid, Paper, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
-import IconButton from '@mui/material/IconButton';
-import Tooltip from '@mui/material/Tooltip';
+import React from 'react';
 
 export default function Contact() {
     return (

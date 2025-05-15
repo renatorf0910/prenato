@@ -1,10 +1,7 @@
-import React from 'react';
-import { Container, Grid, Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
-import { motion } from 'framer-motion';
-import IconButton from '@mui/material/IconButton';
-import Tooltip from '@mui/material/Tooltip';
-import { ArrowBack } from '@mui/icons-material';
+import { Button, Card, CardContent, CardMedia, Container, Grid, Typography } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { motion } from 'framer-motion';
+import React from 'react';
 
 declare module '@mui/material/styles' {
     interface Palette {

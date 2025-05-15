@@ -1,14 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
-import "slick-carousel/slick/slick.css";
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
+import About from './components/About.tsx';
+import Contact from './components/Contact.tsx';
+import Experience from './components/Experience.jsx';
+import Header from './components/Header.jsx';
 import Home from './components/Home.tsx';
 import Projects from './components/Projects.tsx';
-import Contact from './components/Contact.tsx';
-import Header from './components/Header.jsx';
-import About from './components/About.tsx';
-import Experience from './components/Experience.jsx';
 
 export default function App() {
   return (
